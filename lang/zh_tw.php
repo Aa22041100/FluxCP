@@ -657,11 +657,11 @@ return array(
 	'MainPageInfo2'           => "Would you like to change this page? Well, here's how you can:",
 	'MainPageStep1'           => 'Open "%s" in your text editor.',
 	'MainPageStep2'           => 'Edit the file from your editor and save your changes.',
-	'MainPageThanks'          => 'Thanks for using Flux!',
-	'MainPageWelcome'         => 'Welcome to %s!',
+	'MainPageThanks'          => '多謝使用 Flux!',
+	'MainPageWelcome'         => '歡迎來到 %s!',
 	// - main/pagenotfound
 	'PageNotFoundTitle'       => '404 Page Not Found',
-	'PageNotFoundHeading'     => 'Page Not Found',
+	'PageNotFoundHeading'     => '頁面不存在',
 	'PageNotFoundInfo'        => 'The page you have requested was not found on our server.  Please check the address and make sure it is correct, and try again.',
 	// - main/preprocess
 	'DisallowedDuringWoE'     => 'The page you have requested is not accessible during WoE.',
