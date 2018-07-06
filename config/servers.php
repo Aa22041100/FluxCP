@@ -4,7 +4,7 @@ return array(
 	// specify multiple server groups (however they should share the same login
 	// server whilst they are allowed to have multiple char/map pairs).
 	array(
-		'ServerName'     => 'New Star RO',
+		'ServerName'     => '',
 		// Global database configuration (excludes logs database configuration).
 		'DbConfig'       => array(
 			//'Socket'     => '/tmp/mysql.sock',
@@ -14,9 +14,9 @@ return array(
 				// -- 'Convert' option only works when 'Encoding' option is specified and iconv (http://php.net/iconv) is available.
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
 			'Hostname'   => '127.0.0.1',
-			'Username'   => 'ktro',
-			'Password'   => 'a22041100',
-			'Database'   => 'ktro_rag',
+			'Username'   => '<INPUT_RAG_DB_USERNAME>',
+			'Password'   => '<INPUT_RAG_DB_PASSWORD>',
+			'Database'   => '<INPUT_RAG_DB_NAME>',
 			'Persistent' => true,
 			'Timezone'   => null // Example: '+0:00' is UTC.
 			// The possible values of 'Timezone' is as documented from the MySQL website:
@@ -35,9 +35,9 @@ return array(
 				// -- 'Convert' option only works when 'Encoding' option is specified and iconv (http://php.net/iconv) is available.
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
 			'Hostname'   => '127.0.0.1',
-			'Username'   => 'ktro',
-			'Password'   => 'a22041100',
-			'Database'   => 'ktro_log',
+			'Username'   => '<INPUT_LOG_DB_USERNAME>',
+			'Password'   => '<INPUT_LOG_DB_PASSWORD>',
+			'Database'   => '<INPUT_LOG_DB_NAME>',
 			'Persistent' => true,
 			'Timezone'   => null // Possible values is as described in the comment in DbConfig.
 		),
