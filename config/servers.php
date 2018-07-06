@@ -18,7 +18,7 @@ return array(
 			'Password'   => 'a22041100',
 			'Database'   => 'ktro_rag',
 			'Persistent' => true,
-			'Timezone'   => null // Example: '+0:00' is UTC.
+			'Timezone'   => '+8:00' // Example: '+0:00' is UTC.
 			// The possible values of 'Timezone' is as documented from the MySQL website:
 			// "The value can be given as a string indicating an offset from UTC, such as '+10:00' or '-6:00'."
 			// "The value can be given as a named time zone, such as 'Europe/Helsinki', 'US/Eastern', or 'MET'." (see below continuation!)
