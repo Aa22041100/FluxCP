@@ -95,7 +95,7 @@ return array(
     'MapStaticsLabel'            => '地圖統計',
     'RankingInfoLabel'            => '排名資訊',
 	'VendingInfoLabel'            => '販賣資訊',
-	'BuyingstoreInfoLabel'        => 'Buyingstore Info',
+	'BuyingstoreInfoLabel'        => '收購資訊',
     'ItemDatabaseLabel'            => '物品數據庫',
     'MobDatabaseLabel'            => '魔物數據庫',
     'JoinUsInFacebookLabel'            => 'Join us on Facebook!',
@@ -634,7 +634,7 @@ return array(
 	'ZenyLogAmountLabel'      => '數量',
 	'ZenyLogMapLabel'         => '地圖',
 	// - logdata/feeding
-	'FeedingLogTitle' => 'Feeding Log',
+	'FeedingLogTitle' => '喂食日誌',
 	
 	// Module: mail
 	// - mail/index
