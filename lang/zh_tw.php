@@ -94,7 +94,8 @@ return array(
     'WhosOnlineLabel'            => "在線人物",
     'MapStaticsLabel'            => '地圖統計',
     'RankingInfoLabel'            => '排名資訊',
-    'VendingInfoLabel'            => '販賣資訊',
+	'VendingInfoLabel'            => '販賣資訊',
+	'BuyingstoreInfoLabel'        => 'Buyingstore Info',
     'ItemDatabaseLabel'            => '物品數據庫',
     'MobDatabaseLabel'            => '魔物數據庫',
     'JoinUsInFacebookLabel'            => 'Join us on Facebook!',
@@ -632,6 +633,8 @@ return array(
 	'ZenyLogTypeLabel'        => '種類',
 	'ZenyLogAmountLabel'      => '數量',
 	'ZenyLogMapLabel'         => '地圖',
+	// - logdata/feeding
+	'FeedingLogTitle' => 'Feeding Log',
 	
 	// Module: mail
 	// - mail/index
@@ -647,7 +650,6 @@ return array(
 	'MailerToLabel'           => '到',
 	'MailerSubjectLabel'      => '主題',
 	'MailerBodyLabel'         => '內容',
-	'MailerBodyInfo'          => '內容是用 Markdown 語法.',
 	'MailerSelectTemplateLabel'   => '選擇草犒',
 	
 	// Module: main
