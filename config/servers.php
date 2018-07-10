@@ -18,7 +18,7 @@ return array(
 			'Password'   => 'a22041100',
 			'Database'   => 'ktro_rag',
 			'Persistent' => true,
-			'Timezone'   => '+8:00' // Example: '+0:00' is UTC.
+			'Timezone'   => 'Asia/Hong_Kong' // Example: '+0:00' is UTC.
 			// The possible values of 'Timezone' is as documented from the MySQL website:
 			// "The value can be given as a string indicating an offset from UTC, such as '+10:00' or '-6:00'."
 			// "The value can be given as a named time zone, such as 'Europe/Helsinki', 'US/Eastern', or 'MET'." (see below continuation!)
@@ -39,7 +39,7 @@ return array(
 			'Password'   => 'a22041100',
 			'Database'   => 'ktro_log',
 			'Persistent' => true,
-			'Timezone'   => '+8:00' // Possible values is as described in the comment in DbConfig.
+			'Timezone'   => 'Asia/Hong_Kong' // Possible values is as described in the comment in DbConfig.
 		),
 		// Login server configuration.
 		'LoginServer'    => array(
@@ -55,7 +55,7 @@ return array(
 				'ServerName'      => 'New Star RO',
 				'Renewal'         => true,
 				'MaxCharSlots'    => 9,
-				'DateTimezone'    => '+8:00', // Specifies game server's timezone for this char/map pair. (See: http://php.net/timezones)
+				'DateTimezone'    => 'Asia/Hong_Kong', // Specifies game server's timezone for this char/map pair. (See: http://php.net/timezones)
 				//'ResetDenyMaps'   => 'sec_pri', // Defaults to 'sec_pri'. This value can be an array of map names.
 				//'Database'        => 'ragnarok', // Defaults to DbConfig.Database
 				'ExpRates' => array(
